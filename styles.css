@@ -1,0 +1,32 @@
+#title{
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img1.png");
+    height:920px;
+    display: table;
+    width: 100%;
+}
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle;
+}
+.content{
+    padding: 5em;
+}
+h1,h2,h3{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#footer{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: small;
+}
+h1,h2,h3{
+    font-family: 'Cinzel', serif;
+}
+p,a{
+    font-family: 'Roboto Slab', serif;
+}
